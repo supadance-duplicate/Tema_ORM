@@ -1,0 +1,47 @@
+package Model;
+
+import java.io.Serializable;
+import java.util.Date;
+import javax.persistence.*;
+
+/**
+ * Entity implementation class for Entity: Order
+ *
+ */
+@Entity
+
+public class Order implements Serializable {
+
+	   
+	@Id
+	private int id;
+	private int id_clientB2C;
+	private Date date;
+	private static final long serialVersionUID = 1L;
+
+	public Order() {
+		super();
+	}   
+	public int getId() {
+		return this.id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}   
+	public int getId_clientB2C() {
+		return this.id_clientB2C;
+	}
+
+	public void setId_clientB2C(int id_clientB2C) {
+		this.id_clientB2C = id_clientB2C;
+	}   
+	public Date getDate() {
+		return this.date;
+	}
+
+	public void setDate(Date date) {
+		this.date = date;
+	}
+   
+}

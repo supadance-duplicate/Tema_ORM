@@ -1,0 +1,18 @@
+package dao;
+
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class Supplier_StockDAO
+ */
+@Stateless
+public class Supplier_StockDAO implements Supplier_StockDAORemote {
+
+    /**
+     * Default constructor. 
+     */
+    public Supplier_StockDAO() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

@@ -1,0 +1,12 @@
+package dao;
+
+public interface DAOGenericInterface<T> {
+
+	Void insert(T t);
+	
+	Void update(T t);
+	
+	Void delete (T t);
+	
+	T findById(int id);	
+}

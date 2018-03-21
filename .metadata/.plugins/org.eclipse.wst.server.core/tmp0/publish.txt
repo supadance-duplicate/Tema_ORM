@@ -1,0 +1,3 @@
+#GlassFish 3
+#Wed Mar 21 18:10:38 EET 2018
+org.eclipse.jst.jee.server\:testEAR=C\:\\Users\\andre\\Desktop\\School\\Master\\Semestrul_II\\ORM\\glassfish4\\glassfish\\domains\\domain1\\eclipseApps\\testEAR

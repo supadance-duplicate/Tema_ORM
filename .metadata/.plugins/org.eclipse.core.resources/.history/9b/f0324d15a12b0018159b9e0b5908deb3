@@ -1,0 +1,5 @@
+package dao;
+
+public interface Supplier_StockDAORemote extends DAOGenericInterface<Supplier_StockDTO> {
+
+}

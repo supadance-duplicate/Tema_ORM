@@ -1,0 +1,15 @@
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+
+import com.university.test.TestStatelessBeanLocal;
+
+public class Main {
+
+	public static void main(String[] args) throws NamingException
+	{
+		InitialContext ctx = new InitialContext();
+		TestStatelessBeanLocal tsbl = (TestStatelessBeanLocal) ctx.lookup("java:global/testEAR/testEJB/TestStatelessBean!com.university.test.TestStatelessBeanLocal");
+		tsbl.sayHello("salut");
+	}
+
+}

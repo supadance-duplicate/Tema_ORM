@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.naming.InitialContext"/>
+<fullyQualifiedTypeName name="com.university.test.TestStatelessBeanLocal"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="dto.ClientB2BDTO"/>
+<fullyQualifiedTypeName name="dto.ClientB2CDTO"/>
+<fullyQualifiedTypeName name="dto.Order_ItemsDTO"/>
+<fullyQualifiedTypeName name="dto.SOrderDTO"/>
+<fullyQualifiedTypeName name="dto.Stock_ClientB2BDTO"/>
+<fullyQualifiedTypeName name="dto.Supplier_StockDTO"/>
+<fullyQualifiedTypeName name="dto.WineDTO"/>
+<fullyQualifiedTypeName name="enums.WineType"/>
+<fullyQualifiedTypeName name="dto.SupplierDTO"/>
+<fullyQualifiedTypeName name="javax.ejb.Remote"/>
+<fullyQualifiedTypeName name="Model.Order_Items"/>
+<fullyQualifiedTypeName name="Model.Promo"/>
+<fullyQualifiedTypeName name="dto.PromoDTO"/>
+<fullyQualifiedTypeName name="Model.SOrder"/>
+<fullyQualifiedTypeName name="Model.ClientB2C"/>
+<fullyQualifiedTypeName name="Model.Stock_ClientB2B"/>
+<fullyQualifiedTypeName name="Model.ClientB2B"/>
+<fullyQualifiedTypeName name="Model.Supplier_Stock"/>
+<fullyQualifiedTypeName name="Model.Wine"/>
+<fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="Model.Supplier"/>
+</qualifiedTypeNameHistroy>

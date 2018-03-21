@@ -1,0 +1,26 @@
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+
+import com.university.test.TestStatelessBeanLocal;
+
+import dao.WineDAORemote;
+import dto.WineDTO;
+
+public class Main {
+
+	public static void main(String[] args) throws NamingException
+	{
+		InitialContext ctx = new InitialContext();
+		TestStatelessBeanLocal tsbl = (TestStatelessBeanLocal) ctx.lookup("java:global/testEAR/testEJB/TestStatelessBean!com.university.test.TestStatelessBeanLocal");
+		
+		
+	    WineDAORemote wineDAORemote = (WineDAORemote) ctx.lookup("java:global/testEAR/testEJB/WineDAO!dao.WineDAORemote");
+		
+		WineDTO wineDTO = new WineDTO();
+		wineDTO.setName("test wine name");
+		wineDTO.setWineType("DRY");
+		wineDAORemote.insert(wineDTO);
+		
+	}
+
+}

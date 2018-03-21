@@ -1,0 +1,18 @@
+package dao;
+
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class PromoDAO
+ */
+@Stateless
+public class PromoDAO implements PromoDAORemote {
+
+    /**
+     * Default constructor. 
+     */
+    public PromoDAO() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

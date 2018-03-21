@@ -1,0 +1,18 @@
+package dao;
+
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class Order_ItemsDAO
+ */
+@Stateless
+public class Order_ItemsDAO implements Order_ItemsDAORemote {
+
+    /**
+     * Default constructor. 
+     */
+    public Order_ItemsDAO() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

@@ -1,0 +1,5 @@
+package dao;
+
+public interface Stock_ClientB2BDAORemote extends DAOGenericInterface<Stock_ClientB2BDTO> {
+
+}

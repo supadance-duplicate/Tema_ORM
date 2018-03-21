@@ -1,0 +1,5 @@
+package dao;
+
+public interface ClientB2BDAORemote extends DAOGenericInterface<T> {
+
+}

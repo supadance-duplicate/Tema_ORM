@@ -1,0 +1,18 @@
+package dao;
+
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class ClientB2CDAO
+ */
+@Stateless
+public class ClientB2CDAO implements ClientB2CDAORemote {
+
+    /**
+     * Default constructor. 
+     */
+    public ClientB2CDAO() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

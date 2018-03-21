@@ -1,0 +1,18 @@
+package dao;
+
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class WineDAO
+ */
+@Stateless
+public class WineDAO implements WineDAORemote {
+
+    /**
+     * Default constructor. 
+     */
+    public WineDAO() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

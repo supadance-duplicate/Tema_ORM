@@ -1,0 +1,52 @@
+package Model;
+
+import Model.User;
+import java.io.Serializable;
+import java.lang.String;
+import java.util.Date;
+import java.util.List;
+
+import javax.persistence.*;
+
+/**
+ * Entity implementation class for Entity: ClientB2C
+ *
+ */
+@Entity
+
+public class ClientB2C extends User implements Serializable {
+
+	
+	private String nume;
+	private String prenume;
+	private Date date_register;
+	@OneToMany(mappedBy = "clientB2C")
+	private List<SOrder> sOrders;
+	private static final long serialVersionUID = 1L;
+
+	public ClientB2C() {
+		super();
+	}   
+	public String getNume() {
+		return this.nume;
+	}
+
+	public void setNume(String nume) {
+		this.nume = nume;
+	}   
+	public String getPrenume() {
+		return this.prenume;
+	}
+
+	public void setPrenume(String prenume) {
+		this.prenume = prenume;
+	}   
+	public Date getDate_register() {
+		return this.date_register;
+	}
+
+	public void setDate_register(Date date_register) {
+		this.date_register = date_register;
+	}
+   
+}

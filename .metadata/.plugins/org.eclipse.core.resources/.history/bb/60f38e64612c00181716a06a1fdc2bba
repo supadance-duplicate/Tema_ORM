@@ -1,0 +1,18 @@
+package dao;
+
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class SupplierDAO
+ */
+@Stateless
+public class SupplierDAO implements SupplierDAORemote {
+
+    /**
+     * Default constructor. 
+     */
+    public SupplierDAO() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

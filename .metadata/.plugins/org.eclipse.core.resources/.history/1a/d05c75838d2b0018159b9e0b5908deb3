@@ -1,0 +1,55 @@
+package Model;
+
+import Model.User;
+import java.io.Serializable;
+import java.lang.Boolean;
+import java.lang.String;
+import javax.persistence.*;
+
+/**
+ * Entity implementation class for Entity: ClientB2B
+ *
+ */
+@Entity
+
+public class ClientB2B extends User implements Serializable {
+
+	private String companyName;
+	private String CUI;
+	private Boolean visibility;
+	private Boolean subscribed;
+	private static final long serialVersionUID = 1L;
+
+	public ClientB2B() {
+		super();
+	}   
+	public String getCompanyName() {
+		return this.companyName;
+	}
+
+	public void setCompanyName(String companyName) {
+		this.companyName = companyName;
+	}   
+	public String getCUI() {
+		return this.CUI;
+	}
+
+	public void setCUI(String CUI) {
+		this.CUI = CUI;
+	}   
+	public Boolean getVisibility() {
+		return this.visibility;
+	}
+
+	public void setVisibility(Boolean visibility) {
+		this.visibility = visibility;
+	}   
+	public Boolean getSubscribed() {
+		return this.subscribed;
+	}
+
+	public void setSubscribed(Boolean subscribed) {
+		this.subscribed = subscribed;
+	}
+   
+}
